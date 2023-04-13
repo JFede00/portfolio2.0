@@ -1,0 +1,55 @@
+@import 'function.scss';
+$bck-card-title: #a1a1a1;
+$bck-img-testimonianze: #a1a1a162;
+main {
+    margin-top: 60px;
+    .container{
+        h1{
+            background-color: yellow;
+            padding: 5px;
+        }
+        text-align: center;
+        border-radius: 10px;
+    }
+    .row{
+        margin: 0 100px;
+        margin-bottom: 100px;
+    }
+    .card-title{
+        text-align: center;
+        background-color: $bck-card-title;
+        border-radius: 50px;
+    }
+    .carousel-inner {
+        width: 100%;
+        height: 100%;
+        margin: 0 0 100px;
+        .carousel-item {
+            .carousel-caption{
+                img{
+                    background-color: $bck-img-testimonianze;
+                    border-radius: 100%;
+                    width: 25%;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+    .container-partner{
+        h3{
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 50px;
+        }
+    }
+    .partnership{
+        width: 100%;
+    }
+}
+footer {
+    .container-modal{
+        text-align: center;
+        margin: 0 0 1.5em;
+        
+    }
+}
